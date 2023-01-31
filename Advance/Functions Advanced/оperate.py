@@ -12,3 +12,5 @@ def operate(*args):
         return reduce(lambda x, y: x * y, numbers)
     elif operation == "/":
         return reduce(lambda x, y: x / y, numbers)
+
+
